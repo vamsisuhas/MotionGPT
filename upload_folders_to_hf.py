@@ -37,7 +37,12 @@ def main():
     print("=" * 60)
     
     space_id = "vsadhu1/MotionGPT"
-    token = "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"
+    token = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_TOKEN")
+    if not token:
+        print("❌ Error: HuggingFace token not found!")
+        print("   Please set HF_TOKEN or HUGGINGFACE_TOKEN environment variable")
+        print("   Example: export HF_TOKEN=your_token_here")
+        sys.exit(1)
     
     print(f"📁 Space: {space_id}")
     print("\n⚠️  IMPORTANT: Free HuggingFace Spaces have 1GB storage limit")
