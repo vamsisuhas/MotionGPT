@@ -27,6 +27,6 @@ model:
 
 RENDER:
   BLENDER_PATH: libs/blender-2.93.2-linux-x64/blender
-  SMPL_MODEL_PATH: deps/smpl/smpl_models/smpl
-  MODEL_PATH: deps/smpl/smpl_models/
-  FACES_PATH: deps/smplh/smplh.faces
+  SMPL_MODEL_PATH: deps/smpl_models/smpl
+  MODEL_PATH: deps/smpl_models/
+  FACES_PATH: deps/smpl_models/smplh/smplh.faces

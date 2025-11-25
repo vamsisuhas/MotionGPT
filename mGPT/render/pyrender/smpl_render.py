@@ -124,7 +124,7 @@ class SMPLRender():
         self.smpl = smplx.create(Path(SMPL_MODEL_DIR).parent,
                                  model_type="smpl",
                                  gender="neutral",
-                                 ext="npz",
+                                 ext="pkl",
                                  batch_size=1).to(self.device)
 
         self.pred_camera_t = []

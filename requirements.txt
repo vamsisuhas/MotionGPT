@@ -1,15 +1,27 @@
+gradio>=4.44.0
+torch
+torchvision
+torchaudio
 tensorboard
 pytorch_lightning
 torchmetrics
 omegaconf
 shortuuid
-chumpy
-transformers
+setuptools
+wheel
+pip
+numpy<2.0
+tokenizers>=0.15.0
+transformers>=4.41.0
 diffusers
 einops
 wandb
 rich
 matplotlib
+opencv-python
+imageio
+scipy
+scikit-learn
 
 # for visualization
 smplx==0.1.28
@@ -25,3 +37,6 @@ pyrender
 moviepy
 librosa
 triangle==20220202
+huggingface-hub>=0.30.0
+shapely
+bert-score
