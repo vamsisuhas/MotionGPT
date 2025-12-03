@@ -1,0 +1,42 @@
+# Files with secrets - ignore these
+upload_folders_to_hf.py
+upload_models_to_hf.py
+upload_models_separate.py
+deploy_to_hf.py
+deploy_to_hf.sh
+push_to_hf.py
+quick_push.py
+
+# Generated assets
+assets/*.mp4
+assets/*.gif
+assets/*.npy
+!assets/videos/
+!assets/images/
+!assets/css/
+!assets/meta/
+
+# Cache and temporary files
+cache/
+.gradio/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model checkpoints and dependencies (too large for git)
+checkpoints/
+deps/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
